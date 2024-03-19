@@ -1,5 +1,5 @@
 function print_temp_stats(temp_farenheit) {
-    print("Temperature is: ", (temp_farenheit - 32) * 5 / 9 ,"C")
+    console.log("Temperature is: ", (temp_farenheit - 32) * 5 / 9 ,"C")
 
     if (((temp_farenheit - 32) * 5 / 9) > 37) { 
         console.log("It's really hot!");

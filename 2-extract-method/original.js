@@ -5,5 +5,5 @@ function main() {
     const height = prompt("Enter height in cms:")
     const heightInM = height / 100
     const BMI = weight / heightInM ** 2
-    print("BMI is: ", BMI)
+    console.log("BMI is: ", BMI)
 }

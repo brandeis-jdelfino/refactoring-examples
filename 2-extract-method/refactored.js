@@ -8,7 +8,7 @@ function calc_bmi(weight_kg, height_cm) {
 function main() {
     const weight_kg = prompt("Enter Weight in kgs:")
     const height_cm = prompt("Enter height in cms:")
-    print("BMI is: ", calc_bmi(weight_kg, height_cm));
+    console.log("BMI is: ", calc_bmi(weight_kg, height_cm));
 }
 
 module.exports = calc_bmi;
