@@ -1,3 +1,5 @@
+
+// We've made the function testable by dependency-injecting a function for output.
 function print_temp_stats(temp_farenheit, emit) {
     const temp_celcius = (temp_farenheit - 32) * 5 / 9;
     console.log("Temperature is: ", temp_celcius ,"C")

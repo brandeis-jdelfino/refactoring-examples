@@ -1,4 +1,5 @@
 function print_temp_stats(temp_farenheit) {
+    // We've simplified logic by extracting a repeatedly calculated value into a temporary variable.
     const temp_celcius = (temp_farenheit - 32) * 5 / 9;
     console.log("Temperature is: ", temp_celcius ,"C")
 

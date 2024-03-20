@@ -1,5 +1,7 @@
 function print_temp_stats(temp_farenheit, emit) {
     const temp_celcius = (temp_farenheit - 32) * 5 / 9;
+
+    // We've reduced duplication by pulling a repeated statement out of a chain of conditionals.
     console.log("Temperature is: ", temp_celcius ,"C")
 
     if (temp_celcius > 37) { 

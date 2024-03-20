@@ -3,6 +3,9 @@ class PriceCalculator {
         this.items = [];
     }
 
+    // We've simplified the individual methods on this class by factoring out repeated logic into
+    // private methods.
+    
     static _calculateItemPrice(item) {
         let price = item.price;
         if (item.quantity > 10) {
